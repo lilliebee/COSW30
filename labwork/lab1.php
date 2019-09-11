@@ -2,9 +2,7 @@
 <html>
     <head>
         <title>Labwork 1:Hello World</title>
-        /* lab1.php
-        Karen Candelario
-        8/29/19 */
+        
         
         <style type="text/css">
             body {
@@ -32,6 +30,9 @@
        
 
 <?php 
+/* lab1.php
+        Karen Candelario
+        8/29/19 */
 print "<p>My favorite website is <a href=\"http://www.youtube.com\">Youtube</a> hands down I use it for just about everything and it's especially been a huge help ever since I decided to learn about the computer field. Whenever I am not watching videos in Youtube I am usually on <a href=\"http://www.pinterest.com\">Pinterest</a> attempting DIY's.</p>";
 print "<p> This first assignment was pretty dang challenging. I struggled with pushing the file to git and then afterwards couldn't figure out why heroku deployed an empty web page after extensive google searches I hoped onto the class discord chat and found the answer *dramatic pause* I wasn't typing in the whole link correctly. Now that I've figured out my mistakes I am hoping I'll be able to understand everything a bit more."
 ?>
