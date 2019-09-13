@@ -7,15 +7,14 @@
                 margin: 50px;
                 text-align: center;
                 font-family: 'Raleway', Helvetica, sans-serif;
-                background-image:https://gcn.com/articles/2018/09/25/-/media/GIG/EDIT_SHARED/VotingTech/electionsecurity.png;
+                background-color:#004D6E;
                 }
                 
-                form {
-                    background-color: white;
-                    text-align: center;
-                }
-            
-            
+              .form {
+                  background-color: white;
+                  line-height: 1.8;
+              }
+                
         </style>
         
         
@@ -25,6 +24,7 @@
         <h2> Support your favorite The Office! </h2>
         <h1>Michael Scott for President!</h1>
      
+     <div id="form">
      <form action="process_contact.php" method="POST">
             <label>First Name:</label>
             <input type="text" required name="first_name" id="first_name">
@@ -62,10 +62,12 @@
             
             <label>Sign up for mailing list</label>
             <input type="checkbox" name="mailing" value="mailing" checked="checked">Yes<br>
+            
             <label>Comments</label>
             <br><textarea name="comments" rows="10" columns="30"></textarea>
             <br><button name="submit">Submit</button>
         </form>
+        </div>
         </body>
         
         </html>
