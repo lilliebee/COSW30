@@ -8,12 +8,14 @@ $services = $_POST['units'];
 $parking = $_POST['units'];
 
 
-print "<p> Cost of tuition: $units units  </p>";
+
+
+echo "<p> Cost of tuition: $units units x $resident = $resident x $units </p>";
 
 
 
 
-print "<p> We will be contacting you to your email address $email regarding any new information. </p>";
+
 
 ?>
 </body>
