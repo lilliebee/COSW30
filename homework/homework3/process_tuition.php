@@ -4,14 +4,14 @@
  <?php
 $resident = $_POST['resident'];
 $units = $_POST['units'];
-$services = $_POST['units'];
-$parking = $_POST['units'];
+$services = $_POST['services'];
+$parking = $_POST['parking'];
 
 
 
 
 $costoftuition = $resident * $units;
-$totalcostoftuition = $costoftuition + $services + $parking;
+$totalregistrationcost = $costoftuition + $services + $parking;
 
 
 
@@ -24,7 +24,10 @@ echo "<p> College Services Card: $services ";
 
 echo "<p> Parking Permit: $parking ";
 
-echo "<p> Total College Balance Due: $totalcostoftuition ";
+echo "<p> Total College Balance Due: $totalregistrationcost ";
+
+
+echo " <p> Scholarship Award: rand(0, $totalregistrationcost);</p>"
 
 
 
