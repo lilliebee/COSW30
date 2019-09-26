@@ -10,7 +10,7 @@ $parking = $_POST['units'];
 
 
 
-echo "<p> Cost of tuition: $units units x $resident = $resident x $units </p>";
+echo "<p> Cost of tuition: $units units x $resident = $resident * $units = $costoftuition </p>";
 
 
 
