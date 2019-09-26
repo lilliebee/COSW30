@@ -13,6 +13,7 @@ $parking = $_POST['parking'];
 $costoftuition = $resident * $units;
 $totalregistrationcost = $costoftuition + $services + $parking;
 $award = rand(0, $totalregistrationcost);
+$totalbalance = $totalregistrationcost - $award;
 
 
 
@@ -21,14 +22,16 @@ echo "<p> Cost of tuition: $units units x  $ $resident = $ $costoftuition </p>";
 
 echo "<p> Mandatory Student Health Fee: $ 19 </p>";
 
-echo "<p> College Services Card:$ $services ";
+echo "<p> College Services Card:$ $services </p>";
 
-echo "<p> Parking Permit:$ $parking ";
+echo "<p> Parking Permit:$ $parking </p>";
 
-echo "<p> Total College Balance Due:$ $totalregistrationcost ";
+echo "<p> Total Registration Costs:$ $totalregistrationcost </p>";
 
 
-echo " <p> Scholarship Award: $award ;</p>"
+echo "<p> Scholarship Award: $award </p>";
+
+echo "<p> Total College Balance Due:$ $totalbalance </p>";
 
 
 
