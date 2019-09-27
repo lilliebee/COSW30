@@ -6,7 +6,7 @@ $textExplode = explode(' ', $quote);
 
 $myarray = $textExplode;
 
-echo "<p>$textExplode</p>"
+echo "<p> $myarray </p>"
 
 
 
