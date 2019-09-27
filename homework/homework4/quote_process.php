@@ -2,22 +2,15 @@
 
 $quote = $_POST['quote'];
 
-$quote = explode('', filter_input(INPUT_POST, 'quote'));
+$textexplode = explode('', $quote);
 
-$array = $quote;
+echo"$textexplode";
 
-foreach ($array as $value) {
-    echo "$value<br>";
-}
+sort($textexplode);
 
-sort($array);
 
-foreach ($array as $value)
-{
-    echo "$value <br>";
-}
 
-arsort($array);
+arsort($textexplode);
 
 
 
