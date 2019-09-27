@@ -1,16 +1,12 @@
 <?php
 
-$quote = $_POST['quote'];
+$quote= $_POST['quote'];
 
 $textexplode = explode('', $quote);
 
-echo "<p>$textexplode</p>";
 
-sort($textexplode);
+print("$textexplode");
 
-
-
-arsort($textexplode);
 
 
 
