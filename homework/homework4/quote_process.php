@@ -2,11 +2,13 @@
 
 $quote= $_POST['quote'];
 
-$textExplode = explode(' ', $quote);
 
-$myarray = $textExplode;
+print_r (explode(" ",$quote));
 
-echo "<p> $myarray </p>"
+
+
+
+
 
 
 
