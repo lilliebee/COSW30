@@ -4,7 +4,7 @@ $quote = $_POST['quote'];
 
 $textexplode = explode('', $quote);
 
-echo"$textexplode";
+echo "<p>$textexplode</p>";
 
 sort($textexplode);
 
