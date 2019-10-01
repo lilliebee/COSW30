@@ -35,9 +35,43 @@ li a {
   color:white;
   
 }
+img {
+  width:50%;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+
+}
+
+main {
+  text-align:center;
+  padding-bottom:25px;
+  
+}
+
+#buttonreg {
+  padding: 15px 25px;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color:#283966;
+  border-radius: 5px;
+  box-shadow: 0 9px #999;
+}
+
+
+footer {
+  background-color: #333;
+  color:white;
+  text-align:center;
+  height:30px;
+
+}
 
         </style>
-        </<head>
+        </head>
             
        <body>
           

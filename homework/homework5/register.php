@@ -1,10 +1,11 @@
- <?php include('includes/header.php'); ?>
- <?php include('includes/inc_registration.php'); ?>
+ <?php include 'header.php'; ?>
+ <?php include 'inc_registration.php'; ?>
  
  <main>
  <h1>Registration Form</h1>
 
             <p>Register Today</p>
+            
           <?php
                 if(isset($error_firstname)) {
                     echo "<p class=\"error\">$error_firstname</p>";
@@ -58,4 +59,4 @@
             <button id="buttonreg">Register!</button>
         </form>
         
-         <?php include('includes/footer.php'); ?>
+         <?php include 'footer.php'; ?>
