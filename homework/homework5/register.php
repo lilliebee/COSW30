@@ -2,9 +2,9 @@
  <?php include 'inc_registration.php'; ?>
  
  <main>
- <h1>Registration Form</h1>
 
-            <p>Register Today</p>
+            
+           <img id=regimg src="https://imgc.artprintimages.com/img/print/classic-book-cover-collage_u-l-q19rm920.jpg?h=550&w=550">
             
           <?php
                 if(isset($error_firstname)) {
@@ -28,7 +28,10 @@
           ?>
           
           
-          <form action="register.php" method="POST">
+          <form id=regform action="register.php" method="POST">
+               <h1 id= regname >Registration Form</h1>
+
+            
 
             <label for="first_name">First Name: </label>
             <input type="text" id="first_name" name="first_name" value="<?php echo $first_name; ?>">

@@ -4,7 +4,9 @@
         <meta charset="utf-8">
         <title>Home Page</title>
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
-        <style type="text/css">
+        <link href="https://imgc.artprintimages.com/img/print/classic-book-cover-collage_u-l-q19rm920.jpg?h=550&w=550" rel="stylesheet">
+        <link rel="stylesheet" href="https://blog.hdwallsource.com/wp-content/uploads/2014/11/gradient-background-26046-26731-hd-wallpapers.jpg.png">
+  <style type="text/css">
 body {
   margin:0px;
   font-family:arial;
@@ -35,7 +37,7 @@ li a {
   color:white;
   
 }
-img {
+#mainimg {
   width:50%;
   display:block;
   margin-left: auto;
@@ -43,6 +45,7 @@ img {
   margin-top:50px;
 
 }
+
 
 main {
   text-align:center;
@@ -62,13 +65,50 @@ main {
 }
 
 
+
 footer {
   background-color: #333;
   color:white;
   text-align:center;
-  height:30px;
+  height:40px;
+  position: absolute;  
+  bottom:0;
+  width: 100%;
 
 }
+#regimg {
+    float: left;
+    width: 45%;
+    height: 800px;
+    
+}
+#regform {
+    padding-top:150px;
+}
+
+#loginpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+ 
+  
+}
+#loginborder {
+  border-style: solid;
+  border-color: black;
+  background-image: url("https://blog.hdwallsource.com/wp-content/uploads/2014/11/gradient-background-26046-26731-hd-wallpapers.jpg.png");
+  width: 500px;
+  height:350px;
+  color:white;
+  
+}
+.loginin {
+  margin: 8px;
+}
+
 
         </style>
         </head>
