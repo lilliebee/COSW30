@@ -3,7 +3,7 @@
 $quote= $_POST['quote'];
 
 
-print_r (explode(" ",$quote));
+echo (explode(" ",$quote));
 
 
 

@@ -29,7 +29,7 @@
         }
         if(empty($confirm_password)) {   //email is empty
             //Output an error message
-            $error_confirmpassword = 'Comfrim Password must be entered';
+            $error_confirmpassword = 'Confrim Password must be entered';
         }
         if(!isset($error_firstname) && !isset($error_lastname) &&
             !isset($error) && !isset($error_password) && !isset($error_confirmpassword)) {
