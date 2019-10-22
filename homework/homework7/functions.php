@@ -2,14 +2,17 @@
 
 $price = $_POST['price'];
 $discount = $_POST['discount'];
+$tax = $POST['tax'];
 
 
 
 
 
-function discountCalculations ($price, $discount) {
-  $saleprice = $price - ($price * ($discount / 100));
-  return $saleprice;
+function discountCalculations ($price, $discount, $tax) {
+  $saleprice = $price - ($price * ($discount / 100)) ;
+  $total = $saleprice * $tax/100;
+  
+  return $total;
 }
 
 ?>
@@ -23,13 +26,15 @@ function discountCalculations ($price, $discount) {
  <form name="discountCalculator" action="functions.php" method="post" >
     <input type="text" name="price"  placeholder="Original Price" ><br>
     <input type="text" name="discount" placeholder="Discount" ><br>
+    <input type="text" name="tax" placeholder="Tax" ><br>
    
      <input type="submit" value="Calculate values"/>
 </form>
 
 
  <?php
-echo discountCalculations($price, $discount);
+ 
+echo discountCalculations($price, $discount, $tax);
 
  ?>
  </body>
