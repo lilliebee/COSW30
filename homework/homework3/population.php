@@ -31,7 +31,7 @@
     <?php
         
       
-        $cityStatepopulation; = ["New York, New York" => "8,622,698", 
+        $cityStatepopulation = ["New York, New York" => "8,622,698", 
         "Los Angeles, California" => "3,999,759", 
         "Chicago, Illinois" => "2,716,450", "Houston, Texas" => "2,312,717", 
         "Phoenix, Arizona" => "1,626,078", "Philadelphia, Pennsylvania" => "1,580,863", 
