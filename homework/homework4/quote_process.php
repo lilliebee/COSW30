@@ -1,53 +1,55 @@
 <?php
-// form input
-$quote= $_POST['quote'];
+
+$quote= $_POST['quote'];  
 
 
-echo "<p class=\"underlineText\">Your Original List Is: </p>";
+echo "<p>Your original list is: </p>";
     $inputList = explode(' ', $quote);
-    foreach($inputList as $value){
-        echo "<p>$value</p>";
-    }
+        foreach($inputList as $value) {
+            echo "<p>$value</p>";
+        }
+        
     echo "<p>Word Count: " .  count($inputList) . "</p>";
-    echo "<br><br><br>";
+  
 
-//Output list alphabetized 
-    //natcasesort used for case-insensitive
-    echo "<p class=\"underlineText\">Alphabetized Version Of List: </p>";
+
+    echo "<p >An alphabetized version of your list: </p>";
     natcasesort($inputList);
-    foreach($inputList as $value){
-        echo "<p>$value</p>";
-    }
-    echo "<br><br><br>";
+        foreach($inputList as $value) {
+            echo "<p>$value</p>";
+        }
     
-     //Output the list reverse alphabetized 
-    echo "<p class=\"underlineText\">Reverse Alphabetized Version Of List: </p>";
+
+    echo "<p>A reverse alphabetized version of your list: </p>";
     rsort($inputList);
-    foreach($inputList as $value){
-        echo "<p>$value</p>";
-    }
-    echo "<br><br><br>";
-    //Add three random words to end of list
-    //interesting,amused,request
-    array_push($inputList, 'interesting', 'request', 'amused');
-    //Output new list
-    //include word count
-    echo "<p class=\"underlineText\">Reverse Alphabetized Version Plus Three Random Words: </p>";
-    foreach($inputList as $value){
-        echo "<p>$value</p>";
-    }
+        foreach($inputList as $value){
+            echo "<p>$value</p>";
+        }
+   
+
+
+    array_push($inputList, 'Mars', 'Mercury', 'Neptune');
+
+    echo "<p >Reverse alphabetized version plus three random words: </p>";
+        foreach($inputList as $value) {
+            echo "<p>$value</p>";
+        }
+        
     echo "<p>Word Count: " .  count($inputList) . "</p>";
-    echo "<br><br><br>";
+   
     
-    //Remove first three words of list
+  
     array_splice($inputList, 0, 3);
-    //Output the new list
-    //include word count
-    echo "<p class=\"underlineText\">Reverse Alphabetized Version With First Three Words Removed: </p>";
-    foreach($inputList as $value){
-        echo "<p>$value</p>";
-    }
+
+    echo "<p>Reverse Alphabetized Version With First Three Words Removed: </p>";
+        foreach($inputList as $value) {
+            echo "<p>$value</p>";
+        }
     echo "<p>Word Count: " .  count($inputList) . "</p>";
-    echo "<br><br><br>";
+    
+    echo "<button><a href=\"quote.html\">Try Again!</a></button>";
+   
+   echo "<br><button title=\"Population Arrays Tables\"><a href=\"population.php\">Population Tables</a></button>";
+    
 
 ?>
