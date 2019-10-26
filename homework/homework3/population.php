@@ -1,9 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <meta charset="utf-8">
         <title>The 15 Most Populous Cities</title>
-     
     </head>
     
     <body>
@@ -102,7 +100,7 @@
         
         <button><a href="quote.html">Quote Form</a></button>
     
-    </div>
+    
     </body>
     
 </html>
