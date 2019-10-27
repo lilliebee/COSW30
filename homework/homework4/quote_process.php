@@ -49,7 +49,7 @@ echo "<p>Your original list is: </p>";
     
     echo "<button><a href=\"quote.html\">Try Again!</a></button>";
    
-   echo "<br><button><a href=\"population.php\">Population Tables</a></button>";
+   echo "<br><button><a href=\"populations.php\">Population Tables</a></button>";
     
 
 ?>
